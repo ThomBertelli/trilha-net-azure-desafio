@@ -70,7 +70,6 @@ public class FuncionarioController : ControllerBase
         funcionarioBanco.Departamento = funcionario.Departamento;
         funcionarioBanco.EmailProfissional = funcionario.EmailProfissional;
         funcionarioBanco.Ramal = funcionario.Ramal;
-        funcionarioBanco.Id = funcionario.Id;
 
         // TODO: Chamar o método de Update do _context.Funcionarios para salvar no Banco SQL
         _context.Funcionarios.Update(funcionarioBanco);
